@@ -30,6 +30,7 @@ def circ(start, end):
 
     rad = end.x - start.x
     circle(rad)
+    end_fill()
 
 def rectangle(start, end):
     "Draw rectangle from start to end."
